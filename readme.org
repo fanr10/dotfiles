@@ -1,0 +1,24 @@
+* 简介
+尽可能平铺，平铺不仅仅是窗口的平铺。还应该有：
+
+一、一套扁平化的主题，并根据自己的喜好统一了各个程序的配色。
+
+二、功能尽可能平铺，平时总需要查看的或者调节的放在最表面，比如音量和亮度。其他的应该快捷键或者终端见。
+* To-Do
+添加计划：
+- 切换主题脚本（亮暗色，程序包括 i3, GTK, Fcitx, polybar 等等）。
+- 其他软件配置。自制字体（主要是一些图标）。
+- GTK / fcitx 主题（事实上为了统一风格，各个软件的主题和配色我都调整过）。
+- 整合的图标主题（为了适配主题风格）。
+- 触摸板手势设置（我认为触摸板和平铺 WM 真的是远比和浮动 WM 组合体验好得多）。
+- 可能还有吧。 
+
+* Updates
+[20190707] ![]()
+[20190706] ![软件推荐列表](https://github.com/wangzme/shareddotfiles/blob/master/docs/Archlinux-soft.org) : 补全功能和一些很棒的软件推荐
+
+* 预览
+** 亮色
+![](https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/light-rofi.png)
+** 暗色
+![](https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/dark-rofi.png)
