@@ -13,12 +13,14 @@
 - 触摸板手势设置（我认为触摸板和平铺 WM 真的是远比和浮动 WM 组合体验好得多）。
 - 可能还有吧。 
 
+
 * Updates
-[20190707] ![]()
-[20190706] ![软件推荐列表](https://github.com/wangzme/shareddotfiles/blob/master/docs/Archlinux-soft.org) : 补全功能和一些很棒的软件推荐
+[20190707] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/%25E5%2585%25B3%25E4%25BA%258E%2520Material%2520%25E9%25A3%258E%25E6%25A0%25BC%25E7%259A%2584%25E4%25B8%2580%25E4%25BA%259B%25E5%25BB%25BA%25E8%25AE%25AE.org][Material 2 风格的建议]] : 主要是主题和字体推荐
+
+[20190706] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/Archlinux-soft.org][Archlinux 日用软件推荐]] : 补全功能和一些很棒的软件推荐
 
 * 预览
 ** 亮色
-![](https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/light-rofi.png)
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/light-rofi.png]]
 ** 暗色
-![](https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/dark-rofi.png)
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/dark-rofi.png]]
