@@ -13,7 +13,6 @@
 - 触摸板手势设置（我认为触摸板和平铺 WM 真的是远比和浮动 WM 组合体验好得多）。
 - 可能还有吧。 
 
-
 * Updates
 [20190707] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/Material-styles.org][Material 2 风格的建议]] : 主要是主题和字体推荐
 
