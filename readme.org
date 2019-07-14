@@ -14,6 +14,8 @@
 - 可能还有吧。 
 
 * Updates
+[20190714] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/touchpad-config.org][触摸板设置及想法]]
+
 [20190710] 添加了 Rofi 的配置
 
 [20190707] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/Material-styles.org][Material 2 风格的建议]] : 主要是主题和字体推荐
