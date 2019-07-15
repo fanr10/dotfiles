@@ -1,6 +1,8 @@
 * 想法
-  我把触摸板需要做的东西分成了两部分基础操作和进阶操作。基础部分是必须满足的。至于进阶我则是这么想得，使用触摸板的最大痛苦在我看来就是精度"不够"，去寻找关闭按钮、切换标签去点击相应标签等等的操作尤其如此，就变得特别耗费精力同时造成操作的不连贯性(这也是我认为平铺桌面管理器更适合触摸板的原因)，所以我决定发挥触摸板的优势，多指操作来模拟一些常用到的，需要耗费注意力的操作（如下表格）。尤其平铺窗口管理器的特性可以省去那些比如三指手势查看所有程序略缩图的功能（因为我们时时都是“略缩”的），就可以把这些节省出来做一些我认为值得的操作。
-  | 分类     | 功能         | 手势               | 具体功能                | 备注             |
+  我把触摸板需要做的东西分成了两部分基础操作和进阶操作。
+  基础部分是基础功能（？？？）。可以设置 Libinput 驱动完成。
+  至于进阶我则是这么想得，触摸板的劣势是进行一些“精密”的操作。比如去找一些小的按钮，这是非常花费时间的，并且会花费一定的精力。而优势是可以同时使用多个手指进行一些手势操作。所以就可以使用一些多指手势来替代这些常常用到的“精密的操作”，如下。
+  | 分类     | 功能         | 手势               | 具体                    | 备注             |
   | 基础操作 | 左键         | 单指点击           |                         |                  |
   |          | 右键         | 双指点击           |                         |                  |
   |          | 中键         | 三指点击           |                         |                  |
@@ -14,9 +16,9 @@
   |          |              | 四指左上/右上滑    | [容器内]上一/下一个程序 | [[https://i3wm.org/docs/userguide.html#_using_workspaces][Workspace]] i3概念 |
   |          | 切换虚拟桌面 | 四指左/右滑        | 上一个/下一个桌面       |                  |
 
-* 配置文件
+* 配置
 ** libinput 驱动设置
    直接参考　[[https://wiki.archlinux.org/index.php/Libinput][Libinput -- ArchWiki]]
 ** libinput-gestures
    请自行查找安装方式。
-   配置文件位置　[[https://github.com/wangzme/shareddotfiles/blob/master/config/libinput-gestures.conf][libuinput-gestures.conf]]
+   配置文件　[[https://github.com/wangzme/shareddotfiles/blob/master/config/libinput-gestures.conf][libuinput-gestures.conf]]
