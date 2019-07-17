@@ -13,9 +13,9 @@ sleep .5
 
 if ! pgrep -x polybar ; then
 	echo "poly not running"
-	polybar i3bottombar
+	polybar i3mainbar
 else
 	pkill polybar
-	polybar i3bottombar 
+	polybar i3mainbar 
 fi
 echo "Bars launched..."

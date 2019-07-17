@@ -1,4 +1,6 @@
-* 如果喜欢 Material 2 的风格的话我以前攒过一套，其实就是主题和字体，看上去也不错，并且不用自己折腾了。
+* Material 2 风格
+  如果喜欢 Material 2 的风格的话我以前攒过一套。
+  其实就是主题和字体，看上去也不错，并且不用自己折腾了。
 - theme
 	- GTK: Materia
 	- Kvantum: Materia
