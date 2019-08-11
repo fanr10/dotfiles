@@ -1,22 +1,44 @@
-#!/bin/bash
 
-# small power menu using rofi, i3, systemd and pm-utils
-# (last 3 dependencies are adjustable below)
-# tostiheld, 2016
+#!/usr/bin/env bash
 
-P="systemctl poweroff"
-R="systemctl reboot"
-L="i3lock"
-E="exit"
-S="systemctl suspend" 
+# rofi-power
+# Use rofi to call systemctl for shutdown, reboot, etc
 
-# you can customise the rofi command all you want ...
-rofi_command="rofi -config $HOME/.dotfiles/config/rofi/themes/Powermenu.rasi "
+# 2016 Oliver Kraitschy - http://okraits.de
 
-options=$'P\nR\nS\nL\nE\n􀚁'
+OPTIONS="􀅈\n􀆨\n􀖃"
 
+# source configuration or use default values
+if [ -f $HOME/.config/rofi-power/config ]; then
+  source $HOME/.config/rofi-power/config
+else
+  LAUNCHER="rofi -width 30 -dmenu -i -p power -config ~/.config/rofi/themes/Powermenu.rasi "
+  USE_LOCKER="false"
+  LOCKER="i3lock"
+fi
 
+# Show exit wm option if exit command is provided as an argument
+if [ ${#1} -gt 0 ]; then
+  OPTIONS="Exit window manager\n$OPTIONS"
+fi
 
-
-# ... because the essential options (-dmenu and -p) are added here
-eval "\$$(echo "$options" | $rofi_command -dmenu -p "")"
+option=`echo -e $OPTIONS | $LAUNCHER | awk '{print $1}' | tr -d '\r\n'`
+if [ ${#option} -gt 0 ]
+then
+    case $option in
+      Exit)
+        eval $1
+        ;;
+      􀅈)
+        systemctl reboot
+        ;;
+      􀆨)
+        systemctl poweroff
+        ;;
+      􀖃)
+        $($USE_LOCKER) && "$LOCKER"; systemctl suspend
+        ;;
+      *)
+        ;;
+    esac
+fi

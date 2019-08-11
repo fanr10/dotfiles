@@ -13,7 +13,7 @@ background = ${colors.xbg}
 foreground = ${colors.xfg}
 
 width = 100%
-height = 25
+height = 30
 ;offset-y = 10
 ;offset-x = 20
 
@@ -28,9 +28,9 @@ border-left-size = 0
 wm-restack = i3
 #override-redirect = true
 
-font-0 = "SF Pro Display:Style=Regular:size=12;3"
-font-1 = "SF Pro Plus:Style=Regular:size=12;3"
-font-2 = "Border:size=18;3"
+font-0 = "sf pro display:style=regular:size=12;3"
+font-1 = "sf pro plus:style=regular:size=12;3"
+font-2 = "border:size=14;2"
 
 fixed-center = true
 spacing = 0
@@ -41,7 +41,60 @@ module-margin-right = 0
 
 modules-left = i3 right 
 modules-center =  left mpd date right
-modules-right = left netspeed temperature battery  batstate right left xbacklight pulseaudio  headphone 
+modules-right = left netspeed memory battery  batstate line xbacklight pulseaudio  headphone 
+overline-size = 6
+overline-color=${colors.xbs}
+underline-size = 3
+underline-color=${colors.xbs}
+
+tray-maxsize = 22
+tray-padding = 6
+tray-position = right
+#tray-background = ${colors.xbg2}
+
+enable-ipc = true
+border-color =${colors.xbg}
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+
+[bar/bspmainbar]
+background = ${colors.xbg}
+foreground = ${colors.xfg}
+
+width = 100%
+height = 25
+;offset-y = 10
+;offset-x = 20
+
+dim-value = 1.0
+
+border-top-size = 3
+border-bottom-size = 5 
+border-right-size = 0
+border-left-size = 0
+
+# bottom = true
+wm-restack = bspwm
+#override-redirect = true
+
+font-0 = "sf pro display:style=regular:size=12;3"
+font-1 = "sf pro plus:style=regular:size=12;3"
+font-2 = "border:size=18;3"
+
+fixed-center = true
+spacing = 0
+padding-left = 0
+padding-right = 0
+module-margin-left = 0
+module-margin-right = 0 
+
+modules-left = bspwm right 
+modules-center =  left mpd date right
+modules-right = left netspeed memory battery  batstate  xbacklight pulseaudio  headphone 
 overline-size = 6
 overline-color=${colors.xbs}
 underline-size = 3
@@ -58,7 +111,8 @@ border-color =${colors.xbg}
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
 [settings]
 ;https://github.com/jaagr/polybar/wiki/Configuration#application-settings
 throttle-output = 5

@@ -1,4 +1,0 @@
-依赖：
-	fcitx-im
-	fcitx-rime
-剩下的参考 ArchWiki 即可。

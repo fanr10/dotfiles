@@ -25,7 +25,17 @@
 [20190706] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/Archlinux-soft.org][Archlinux 日用软件推荐]] : 补全功能和一些很棒的软件推荐
 
 * 预览
-** 亮色
-[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/light-rofi.png]]
-** 暗色
-[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/dark-rofi.png]]
+** Rofi & Polybar
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/rofi.png]]
+
+** Lock
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/lock.png]]
+	使用的是 betterlockscreen 
+
+** Double terminals with title bar
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/terminal.png]]
+
+** GTK theme (dark)
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/gtk-dark.png]]
+
+
