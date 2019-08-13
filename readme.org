@@ -1,19 +1,26 @@
+[[https://github.com/wangzme/dotfiles/blob/master/docs/readme-en.org][English Version]]
 * 简介
-尽可能平铺，平铺不仅仅是窗口的平铺。还应该有：
+** 为什么选择 i3-wm
+   我在 i3-wm, awesome, bspwm 中都徘徊过一段时间。最终还是选择了 i3-wm，原因就是 Workspace 的引入。
+   在 i3-wm 中，管理层次是这样的 Desktop(桌面) - Workspaces(容器) - Apps(程序) ，并且容器中可以有 Tiled(平铺), Tabbed(标签), Stack(栈式)等布局，这就为一个桌面内同时实现多个布局提供了保障。我通常都是在屏幕左侧打开浏览器而在右侧使用标签布局同时打开多个程序。而在另外两者中的哲学并不是这样的，想要实现的的话也要付出非常大的代价。这一点就足以让我选择 i3-wm 了。
+** 想法
+   - 一套扁平化的主题，并根据喜好统一配色。
+   - 常用功能尽可能平铺，平时总需要查看的或者调节的放在最表面，比如音量和亮度。其他的应该快捷键或者终端见。
 
-一、一套扁平化的主题，并根据自己的喜好统一了各个程序的配色。
+* Todo
+** TODO 切换主题脚本
+   亮暗色，程序包括 i3, GTK, Fcitx, polybar 等等
+** TODO 其他软件配置。自制字体
+   主要是一些图标
+** DONE GTK / fcitx 主题
+   事实上为了统一风格，各个软件的主题和配色我都调整过
+** TODO 整合的图标主题
+   为了适配主题风格
+** DONE 触摸板手势设置
+   我认为触摸板和平铺 WM 真的是远比和浮动 WM 组合体验好得多
+**  可能还有吧
 
-二、功能尽可能平铺，平时总需要查看的或者调节的放在最表面，比如音量和亮度。其他的应该快捷键或者终端见。
-* To-Do
-添加计划：
-- 切换主题脚本（亮暗色，程序包括 i3, GTK, Fcitx, polybar 等等）。
-- 其他软件配置。自制字体（主要是一些图标）。
-- GTK / fcitx 主题（事实上为了统一风格，各个软件的主题和配色我都调整过）。
-- 整合的图标主题（为了适配主题风格）。
-- 触摸板手势设置（我认为触摸板和平铺 WM 真的是远比和浮动 WM 组合体验好得多）。
-- 可能还有吧。 
-
-* Updates
+* 记录
 [20190717] 使用的图标在仓库 AWEL 中
 
 [20190714] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/touchpad-config.org][触摸板设置及想法]]
@@ -32,7 +39,7 @@
 [[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/lock.png]]
 	使用的是 betterlockscreen 
 
-** Double terminals with title bar
+** Terminals 
 [[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/terminal.png]]
 
 ** GTK theme (dark)

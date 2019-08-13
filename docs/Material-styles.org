@@ -1,17 +1,15 @@
-* Material 2 风格
-  如果喜欢 Material 2 的风格的话我以前攒过一套。
-  其实就是主题和字体，看上去也不错，并且不用自己折腾了。
+* Material 2 Style
 - theme
 	- GTK: Materia
 	- Kvantum: Materia
 	- Icon: Papirus
 	- Cursor: Paper
 	- font
-        	- Sans-serif （无衬线）
+        	- Sans-serif
             	- Google Sans (Product Sans)
-			- Noto Sans CJK
-		- Serif (衬线)
+			    - Noto Sans CJK
+		- Serif 
                   - none
-		- Iconfont (图标字体，用于 Polybar 等等)
+		- Iconfont
             	- Material icons
 
