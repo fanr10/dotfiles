@@ -10,17 +10,10 @@
 [20190706] [[https://github.com/wangzme/shareddotfiles/blob/master/docs/Archlinux-soft-en.org][Apps recommendation]] 
 
 * Previews
-** Rofi & Polybar
-[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/rofi.png]]
+** Light(config-light)
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/light.png]]
 
-** Lock
-[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/lock.png]]
-	Using betterlockscreen 
-	
-** Terminals 
-[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/terminal.png]]
 
-** GTK theme (dark)
-[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/gtk-dark.png]]
-
+** Dark(config-dark)
+[[https://raw.githubusercontent.com/wangzme/shareddotfiles/master/images/dark.png]]
 
